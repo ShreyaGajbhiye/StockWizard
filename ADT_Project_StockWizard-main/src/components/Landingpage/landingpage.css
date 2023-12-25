@@ -1,0 +1,123 @@
+.main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  background-image: url("../../resources/bg_coverr.jpg");
+  background-position: center;
+  background-size: cover;
+  opacity: 0.8;
+  min-height: 88vh;
+  
+}
+
+.title {
+  font-size: 95px;
+  /* color: #000000; */
+  margin-top: 10%;
+  /* font-size: 80px; */
+  color: #0d0d0d;
+  text-align: center;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+  margin-bottom: 0;
+}
+
+.subtitle {
+  font-size: 25px;
+  padding-top: 10px;
+  color: #000000;
+}
+
+.intro-text {
+  width: 100%;
+  text-align: center;
+}
+
+.landingbutton {
+  width: 2000px;
+  height: 55px;
+}
+
+.buttonContainer {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+@media only screen and (min-width: 1200px) {
+  .buttonContainer {
+    padding: 0 200px;
+  }
+
+  .title {
+    padding: 0 100px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .title {
+    font-size: 60px;
+  }
+
+  .landingbutton {
+    width: 150px;
+    height: 50px;
+  }
+}
+
+.table {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.table th {
+  background-color: #f2f2f2;
+  color: white;
+}
+
+.table td,
+.table th {
+  text-align: center !important;
+  vertical-align: middle !important;
+  color: black !important;
+}
+
+.table thead th {
+  border-top: none;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.table tbody td {
+  border-top: none;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.inventorybutton {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(214, 27, 27);
+  color: rgb(207, 52, 52);
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  transition: background-color 0.3s ease;
+}
+
+.inventorybutton:hover {
+  background-color: rgb(219, 59, 59);
+  cursor: pointer;
+}
+/* .hidden {
+  display: none;
+} */
+
+.centered {
+  text-align: center;
+}
